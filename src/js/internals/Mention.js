@@ -234,7 +234,7 @@ class Mention {
             return false;
         });
 
-        this.addMentionText();
+        //this.addMentionText();
         this.ccMention();
     }
 

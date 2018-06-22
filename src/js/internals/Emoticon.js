@@ -21,7 +21,7 @@ class Emoticon {
             return a.key < b.key ? -1 : (a.key > b.key) ? 1 : 0;
         });
         this.addExternalEmoList();
-        this.addEmoticonText();
+        //this.addEmoticonText();
         this.addExternalEmo();
     }
 

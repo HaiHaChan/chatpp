@@ -49,7 +49,7 @@ class Shortcut {
 
     setUp() {
         if (this.status) {
-            this.addShortcutText();
+            //this.addShortcutText();
             this.registerShortcut();
         }
     }

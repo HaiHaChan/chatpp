@@ -6,7 +6,7 @@ let view_enhancer = require("./ViewEnhancer.js");
 let advertisement = require("./Advertisement.js");
 let NotificationDisabler = require("./NotificationDisabler.js");
 let notify_all = require("./NotifyAll.js");
-
+let TagButton = require("./TagButton.js");
 let cw_timer;
 
 $(() => {
@@ -24,13 +24,13 @@ $(() => {
                 emoticon.setUp();
                 view_enhancer.updateChatworkView();
             }
-
+            TagButton.setUp();
             mention.setUp();
             shortcut.setUp();
             advertisement.setUp();
             NotificationDisabler.setUp();
             notify_all.setUp();
-
+           
             view_enhancer.updateChatSendView();
             view_enhancer.updateGetContactPanelView();
 
